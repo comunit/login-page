@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+* {
+  box-sizing: border-box;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: black;
+}
+
+.right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.logo {
+  padding: 30px;
+}
+
+label,
+input {
+  display: block;
+  color: white;
+  padding: 5px;
+}
+
+input {
+  width: 350px;
+  height: 40px;
+  border: 1px solid #555;
+  background: none;
+}
+
+.form-control {
+  padding: 15px;
+}
+
+.orange {
+  width: 350px;
+  height: 45px;
+  background: #f96816;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.left-down {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.down-padding {
+  padding: 5px;
+}
+
+.left-down a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+.bar {
+  display: inline-block;
+  width: 90px;
+  height: 0px;
+  margin-bottom: 6px;
+}
+
+.or {
+  padding: 9px;
+  font-size: 20px;
+}
+
+.create-account {
+  margin-top: 30px;
+  width: 250px;
+  height: 50px;
+  border: 1px solid #fff;
+  background: none;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.copyright-p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.copyright a {
+  color: #fff;
+  font-size: 14px;
+  color: #f96816;
+}
+
+.pipe {
+  color: #fff;
+}
+
+.right {
+  background: url("https://image.ibb.co/cO9Lxq/login-bg.jpg") no-repeat center
+    center / cover;
+}
+
+.bigheading {
+  font-size: 70px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.free-trial {
+  margin-top: 25px;
+  width: 400px;
+  height: 50px;
+  background: none;
+  color: #fff;
+  font-size: 20px;
+  border: 1px solid #fff;
+}
+
+@media only screen and (max-width: 815px) {
+  .right {
+    display: none;
+  }
+  .left {
+    width: 100%;
+  }
+}
